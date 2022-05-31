@@ -47,8 +47,8 @@ contract RShareRewardPool {
   // The time when RSHARE mining ends.
   uint256 public poolEndTime;
 
-  uint256 public rSharePerSecond = 0.00187687 ether; // 60000 3share / (370 days * 24h * 60min * 60s)
-  uint256 public runningTime = 180 days; // 370 days
+  uint256 public rSharePerSecond = 0.00385802 ether; // 60000 share / (180 days * 24h * 60min * 60s)
+  uint256 public runningTime = 180 days;
   uint256 public constant TOTAL_REWARDS = 60000 ether;
 
   event Deposit(address indexed user, uint256 indexed pid, uint256 amount);

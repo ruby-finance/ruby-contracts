@@ -48,9 +48,8 @@ contract GenesisRewardPool {
   uint256 public poolEndTime;
 
   // MAINNET
-  // uint256 public rubyPerSecond = 0.06944 ether; // 30000 RUBYC / (5days * 24h * 60min * 60s)
-  uint256 public rubyPerSecond = 0.27776 ether; // 30000 RUBYC / (20days * 24h * 60min * 60s)
-  uint256 public runningTime = 20 days; // 5 days
+  uint256 public rubyPerSecond = 0.0496 ether; // 30000 RUBY / (7days * 24h * 60min * 60s)
+  uint256 public runningTime = 7 days;
   uint256 public constant TOTAL_REWARDS = 30000 ether;
   // END MAINNET
 
